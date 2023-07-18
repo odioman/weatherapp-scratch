@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(black, #1d0742, #340d75);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background: linear-gradient(black, #252526);
+    padding: 20px;
+    border-radius: 30px;
+    width: 50%;
+    margin: 20px;
+    box-shadow: 10px 10px 50px black; 
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 15px;
+    background: black;
+    color: white;
+    font-family: inherit;
+    width: calc(100% - 10px);
+}
+
+
+
