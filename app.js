@@ -10,6 +10,7 @@ searchBtn.addEventListener('click', (event) => {
     event.preventDefault();
 })
 
+//fetch not working
 async function fetchWeather(input) {
     try {
         const response = (input) = await fetch(
