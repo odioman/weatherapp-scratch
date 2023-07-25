@@ -1,5 +1,5 @@
 const searchBar = document.querySelector('.search-bar');
-const searchBtn = document.querySelector('.search');
+const searchBtn = document.querySelector('.search-btn');
 const city = document.querySelector('.city');
 const temp = document.querySelector('.temp');
 const desc = document.querySelector('.description');

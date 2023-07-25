@@ -18,10 +18,8 @@ body {
     box-shadow: 10px 10px 50px black; 
 }
 
-.search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.search-btn {
+    display: inline-block;
     border: none;
     outline: none;
     padding: 7px;
@@ -40,7 +38,7 @@ body {
     background: black;
     color: white;
     font-family: inherit;
-    width: calc(100% - 10px);
+    max-width: 100%;
 }
 
 
